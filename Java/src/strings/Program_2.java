@@ -1,0 +1,14 @@
+package strings;
+//How do you swap two string variables without using third or temp variable in java?
+public class Program_2 {
+    public static void main(String args[]) 
+    {  
+        String a = "Love";  
+        String b = "You";  
+        System.out.println("Before swap: " + a + " " + b);  
+        a = a + b;  
+        b = a.substring(0, a.length() - b.length());  
+        a = a.substring(b.length());  
+        System.out.println("After : " + a + " " + b);  
+    } 
+}
