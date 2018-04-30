@@ -22,10 +22,12 @@ public class Program_005_CopyArray
 	{
 		System.out.println("---5) Copying An Array Using copyOfRange() Method of java.util.Array Class :---");
 		 //An array of int
-        int[] i = {1, 21, 15, 48, 79};
+        int[] i = {1, 21, 15, 48, 79 , 23 , 56 , 90};
         //Copying some part of array i into array i1
         int[] i1 = Arrays.copyOfRange(i, 2, 10);
-        System.out.println(Arrays.toString(i1));   //Output : [15, 48, 79, 0, 0]
+        System.out.println(Arrays.toString(i1));   //Output : [15, 48, 79, 23, 56, 90, 0, 0]
+        int[] i2 = Arrays.copyOfRange(i, 2, 5);
+        System.out.println(Arrays.toString(i2));	//Output : [15, 48, 79]
 	}
 
 	private static void Using_arraycopy_Method() 
@@ -82,7 +84,7 @@ public class Program_005_CopyArray
         
         char[] ch = {'a','b','c'};
         char[] ch1 = Arrays.copyOf(ch, 10);
-        System.out.println(Arrays.toString(ch1));
+        System.out.println(Arrays.toString(ch1)); //Output :[a, b, c, , , , , , , ,]
 	}
 
 	private static void UsingForLoop() 

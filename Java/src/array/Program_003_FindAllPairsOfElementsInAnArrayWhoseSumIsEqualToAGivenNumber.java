@@ -4,7 +4,7 @@ public class Program_003_FindAllPairsOfElementsInAnArrayWhoseSumIsEqualToAGivenN
 {
 	public static void main(String[] args) 
 	{
-		int[] arr = {4, 6, 5, -10, 8, 5, 20};
+		int[] arr = {4, 6, 5, -10, 8, 5, 20 , 10};
 		int number = 10;
 		for(int i = 0 ; i<arr.length-1;i++)
 		{

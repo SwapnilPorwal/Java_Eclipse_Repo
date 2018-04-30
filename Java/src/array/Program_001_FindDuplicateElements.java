@@ -10,9 +10,9 @@ public class Program_001_FindDuplicateElements
 	public static void main(String[] args) 
 	{
 		//First Method : Using Brute Force Method
-		method_1();
+		//method_1();
 		//Second Method : Using HashSet
-		method_2();
+		//method_2();
 		//Third method : using Hashmap
 		method_3();
 	}

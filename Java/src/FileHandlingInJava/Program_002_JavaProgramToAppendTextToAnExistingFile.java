@@ -15,7 +15,7 @@ public class Program_002_JavaProgramToAppendTextToAnExistingFile
         try
         {
             //Opening a file in append mode using FileWriter
-            fileWriter = new FileWriter("E:\\Sample.txt", true); 
+            fileWriter = new FileWriter("C:\\Swapnil\\Sample.txt", true); 
             //Wrapping FileWriter object in BufferedWriter
             bufferedWriter = new BufferedWriter(fileWriter);
             //Wrapping BufferedWriter object in PrintWriter  

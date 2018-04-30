@@ -1,6 +1,7 @@
 package strings;
 //How to remove a particular character from a string ?
-public class Program_1 {
+public class Program_1 
+{
 	public static void main(String[] args) 
 	{
 		String str_1 = "I love my India !!!";

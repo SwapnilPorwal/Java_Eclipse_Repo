@@ -16,7 +16,7 @@ public class Program_001_JavaProgramToFindNumberOfCharactersWordsAndLinesInAFile
 		try
 		{
 			//Creating Buffered reader object
-			reader = new BufferedReader(new FileReader("E:\\Sample.txt"));
+			reader = new BufferedReader(new FileReader("C:\\Swapnil\\Sample.txt"));
 			// Read first line into current Line
 			String currentLine = reader.readLine();
 			while(currentLine!=null)

@@ -7,7 +7,7 @@ public class Program_004_FindTheContinuousSubArrayInAnArrayWhoseSumIsEqualToGive
 {
     public static void main(String[] args)
     {
-        findSubArray(new int[]{26, 26,15, 12, 8, 6, 32 , 10 , 12 ,4}, 26);
+        findSubArray(new int[]{26, 26,0,15, 12, 8, 6, 32 , 10 , 12 ,4}, 26);
         //findSubArray(new int[]{12, 5, 31, 13, 21, 8}, 49);
         //findSubArray(new int[]{15, 51, 7, 81, 5, 11, 25}, 41);
     }

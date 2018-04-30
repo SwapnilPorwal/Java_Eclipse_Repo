@@ -19,7 +19,7 @@ public class Program_004_HowToSortATextFileHavingSingleColumn
 		try
 		{
 			// Creating BufferedReader object to read the input file
-			reader = new BufferedReader(new FileReader("E:\\Input.txt"));
+			reader = new BufferedReader(new FileReader("C:\\Swapnil\\Input.txt"));
 			// Reading all the lines of input file one by one and adding them
 			// into ArrayList
 			String currentLine = reader.readLine();
@@ -31,7 +31,7 @@ public class Program_004_HowToSortATextFileHavingSingleColumn
 			// Sorting the ArrayList
 			Collections.sort(lines);
 			// Creating BufferedWriter object to write into output file
-			writer = new BufferedWriter(new FileWriter("E:\\Output.txt"));
+			writer = new BufferedWriter(new FileWriter("C:\\Swapnil\\Output.txt"));
 			// Writing sorted lines into output file
 			for (String line : lines)
 			{

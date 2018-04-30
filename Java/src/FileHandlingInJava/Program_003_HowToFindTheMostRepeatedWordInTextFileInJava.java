@@ -17,7 +17,7 @@ public class Program_003_HowToFindTheMostRepeatedWordInTextFileInJava
         try
         {
             //Creating BufferedReader object
-            reader = new BufferedReader(new FileReader("E:\\Sample.txt"));
+            reader = new BufferedReader(new FileReader("C:\\Swapnil\\Sample.txt"));
             //Reading the first line into currentLine
             String currentLine = reader.readLine();
             while (currentLine != null)

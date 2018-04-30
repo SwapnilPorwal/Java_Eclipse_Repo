@@ -45,7 +45,7 @@ public class Program_005_HowToSortATextFileContainingMultipleColumnsInJava
 	public static void main(String[] args) throws IOException
 	{
 		// Creating BufferedReader object to read the input text file
-		BufferedReader reader = new BufferedReader(new FileReader("E:\\Input1.txt"));
+		BufferedReader reader = new BufferedReader(new FileReader("C:\\Swapnil\\Input.txt"));
 		// Creating ArrayList to hold Student objects
 		ArrayList<Student> studentRecords = new ArrayList<Student>();
 		// Reading Student records one by one
@@ -63,7 +63,7 @@ public class Program_005_HowToSortATextFileContainingMultipleColumnsInJava
 		// Sorting ArrayList studentRecords based on marks
 		Collections.sort(studentRecords, new marksCompare());
 		// Creating BufferedWriter object to write into output text file
-		BufferedWriter writer = new BufferedWriter(new FileWriter("E:\\Output1.txt"));
+		BufferedWriter writer = new BufferedWriter(new FileWriter("C:\\Swapnil\\Output1.txt"));
 		// Writing every studentRecords into output text file
 		for (Student student : studentRecords)
 		{
